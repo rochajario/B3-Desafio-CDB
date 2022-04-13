@@ -1,4 +1,4 @@
-name: Build and Test
+name: Unit Test And Coverage Report
 
 on:
   push:
@@ -22,7 +22,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore /home/runner/work/B3-Desafio-Cdb/B3-Desafio-Cdb/calculadora-cdb.sln
     - name: Test
-      run: dotnet test --no-build --verbosity normal /home/runner/work/B3-Desafio-Cdb/B3-Desafio-Cdb/calculadora-cdb.sln /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+      run: dotnet test /home/runner/work/B3-Desafio-Cdb/B3-Desafio-Cdb/calculadora-cdb.sln /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
     - uses: codecov/codecov-action@v2
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
