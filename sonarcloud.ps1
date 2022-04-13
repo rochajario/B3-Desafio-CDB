@@ -28,7 +28,7 @@ dotnet tool run dotnet-sonarscanner begin /k:"rochajario_B3-Desafio-Cdb" /o:"roc
 
 dotnet restore ./
 dotnet build ./ --configuration release
-dotnet test "./Test/Domain.Test.csproj" --collect:"XPlat Code Coverage" --logger "trx;LogFileName=unittests.trx" --no-build --no-restore --configuration release -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
+dotnet test "./Test/Domain.Test.csproj" --collect:"XPlat Code Coverage" --results-directory TestResults/ --logger "trx;LogFileName=unittests.trx" --no-build --no-restore --configuration release -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
          
 
 dotnet tool run dotnet-sonarscanner end /d:sonar.login="$sonarSecret"
