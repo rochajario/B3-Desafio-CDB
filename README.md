@@ -1,8 +1,8 @@
 <h1 align="center">DESAFIO - CÁLCULO DO CDB</h1>
 
 <p align="center">
-    <a href="https://github.com/rochajario/B3-Desafio-Cdb/actions/workflows/UnitTest.yml">
-        <img src="https://github.com/rochajario/B3-Desafio-Cdb/actions/workflows/UnitTest.yml/badge.svg?branch=master"/>
+    <a href="https://codecov.io/gh/rochajario/B3-Desafio-Cdb">
+        <img src="https://codecov.io/gh/rochajario/B3-Desafio-Cdb/branch/master/graph/badge.svg?token=YT3JTL3M0E" alt="Cobertura de Código"/>
     </a>
     <br/>
     <!--Outras Badges aqui-->

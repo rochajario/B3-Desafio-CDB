@@ -44,5 +44,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"rochajario_B3-Desafio-Cdb" /o:"rochajario" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build .\calculadora-cdb.sln
+          dotnet build --no-restore /home/runner/work/B3-Desafio-Cdb/B3-Desafio-Cdb/calculadora-cdb.sln && dotnet test /home/runner/work/B3-Desafio-Cdb/B3-Desafio-Cdb/calculadora-cdb.sln /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
