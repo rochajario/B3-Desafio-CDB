@@ -23,22 +23,77 @@
 </p>
 
 ## Sumário
+<ol>
+    <li>
+        <a href="objetivo">Objetivo</a>
+    </li>
+    <li>
+        <a href="inicializacao">Inicialização do Projeto</a>
+        <ul>
+            <li>
+                <a href="inicializacao-a">Inicializando de Forma Automatizada</a>
+            </li>
+            <li>
+                <a href="inicializacao-b">Inicializando de Forma Manual</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="problema">Descrição do Problema</a>
+    </li>
+</ol>
 
-## 1 - Objetivo
+<hr/>
+
+<h2 id="objetivo">1 - Objetivo</h2>
 Demonstrar a capacidade de análise e implementação de soluções fundamentadas pelos princípios do SOLID, Testes unitários e performance.
 
-## 2 - Inicializando Localmente
+<h2 id="inicializacao">2 - Inicialização do Projeto</h2>
+
+<h3 id="inicializacao-a">I - Inicializando de Forma Automatizada</h3>
+
 > Para inicializar o sistema em ambiente windows assegure-se que o sistema operacional possui:
 - Node.js na versão 14.0.1 (Outras versões não testadas);
 - .Net 5.0
-> Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando:
+> Para restaurar as dependências, compilar os projetos e executa-los em ambiente local com menor esforço possível. 
+Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando:
 
 ```
-powershell ./Inicializar-localmente.ps1
+powershell ./Inicializar-Localmente.ps1
+```
+<h3 id="inicializacao-b">II - Inicializando de Forma Manual</h3>
+
+> Caso prefira executar os serviços separadamente navegue até a raiz do projeto e siga os passos descritos à baixo:
+
+#### Restaurar dependências e gerar build do projeto de Backend
+```
+dotnet build
+```
+
+#### Executar testes unitários do projeto de Backend com Cobertura de código
+```
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+```
+
+#### Executar Servidor de Backend
+```
+dotnet ./Api/bin/Debug/net5.0/Api.dll"
+```
+
+#### Restaurar dependências do projeto de Frontend
+```
+cd .\Frontend
+npm install
+```
+
+#### Executar Aplicação Frontend
+```
+npm run serve
 ```
 
 
-## 3 - Problema
+<h2 id="problema">3 - Descrição do Problema</h2>
+
 ### Cálculo do CDB
 1. Desenvolvimento de uma tela web que possibilita ao usuário informar um valor monetário positivo e um prazo em meses maior que 1 (um) para resgate da aplicação. Após solicitar o cálculo do investimento, a tela deve apresentar o resultado bruto e o resultado líquido do investimento.
 
