@@ -26,9 +26,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          AZURE_CLIENT_ID:  ${{ secrets.AZURE_CLIENT_ID }}
-          AZURE_CLIENT_SECRET:  ${{ secrets.AZURE_CLIENT_SECRET }}
-          AZURE_TENANT_ID:  ${{ secrets.AZURE_TENANT_ID }}
         shell: powershell
         run: |
           dotnet --version
