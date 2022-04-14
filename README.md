@@ -23,13 +23,13 @@
 </p>
 
 ## Sumário
-- [Cobertura de Testes](https://app.codecov.io/gh/rochajario/B3-Desafio-Cdb)
-- [Métricas de Qualidade de Código](https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb)
 - [Objetivo](#objetivo)
 - [Inicialização](#inicializacao)
     - [Inicializando de Forma Automatizada](#inicializacao-a)
     - [Inicializando de Forma Manual](#inicializacao-b)
 - [Descrição do Problema](#problema)
+- [Cobertura de Testes](https://app.codecov.io/gh/rochajario/B3-Desafio-Cdb)
+- [Métricas de Qualidade de Código](https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb)
 
 <hr/>
 
