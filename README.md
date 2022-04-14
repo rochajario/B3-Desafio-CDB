@@ -55,28 +55,28 @@ powershell ./Inicializar-Localmente.ps1
 
 > Caso prefira executar os serviços separadamente navegue até a raiz do projeto e siga os passos descritos à baixo:
 
-#### Restaurar dependências e gerar build do projeto de Backend
+#### Restaurar dependências e gerar build do projeto de [Backend](./Api)
 ```
 dotnet build
 ```
 
-#### Executar testes unitários do projeto de Backend com Cobertura de código
+#### Executar testes unitários do projeto de [Backend](./Api) com Cobertura de código
 ```
 dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 ```
 
-#### Executar Servidor de Backend
+#### Executar Servidor de [Backend](./Api)
 ```
 dotnet ./Api/bin/Debug/net5.0/Api.dll"
 ```
 
-#### Restaurar dependências do projeto de Frontend
+#### Restaurar dependências do projeto de [Frontend](./Frontend)
 ```
 cd .\Frontend
 npm install
 ```
 
-#### Executar Aplicação Frontend
+#### Executar Aplicação [Frontend](./Frontend)
 ```
 npm run serve
 ```

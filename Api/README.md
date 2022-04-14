@@ -24,15 +24,15 @@
 
 ### Setup do Projeto
 ```
-npm install
+dotnet build
 ```
 
-### Compila e prepara o ambiente de Desenvolvimento
+### Executar testes unitários do projeto com Cobertura de código
 ```
-npm run serve
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 ```
 
-### Compila e 'minifica' o código para produção
+### Executar Servidor
 ```
-npm run build
+dotnet ./Api/bin/Debug/net5.0/Api.dll"
 ```
