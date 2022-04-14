@@ -43,8 +43,8 @@
 <h3 id="inicializacao-a">I - Inicializando de Forma Automatizada</h3>
 
 > Para inicializar o sistema em ambiente windows assegure-se que o sistema operacional possui:
-- Node.js na versão 14 ou Maior (Outras versões não testadas);
-- .Net 5.0 ou Maior
+- Node.js na versão 14.19.0 (Outras versões não testadas);
+- .Net 5.0
 
 > Verifique as versões através dos comandos:
 ```
@@ -59,7 +59,7 @@ Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando atr
 PowerShell.exe -ExecutionPolicy Bypass -File ./Inicializar-Localmente.ps1
 ```
 <em>
-	Obs.: Ao executar o comando acima, uma nova janela irá ser aberta com o processo do servidor de backend.
+	Obs.: Ao executar o comando acima, uma nova janela deverá ser aberta com o processo do servidor de backend.
 	Mantenha-a aberta durante a execução do frontend.
 </em>
 
