@@ -87,7 +87,7 @@ dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
 #### Executar Servidor de [Backend](./Api)
 ```
-dotnet ./Api/bin/Debug/net5.0/Api.dll"
+dotnet ./Api/bin/Debug/net5.0/Api.dll
 ```
 
 #### Restaurar dependências do projeto de [Frontend](./Frontend)
