@@ -43,8 +43,15 @@
 <h3 id="inicializacao-a">I - Inicializando de Forma Automatizada</h3>
 
 > Para inicializar o sistema em ambiente windows assegure-se que o sistema operacional possui:
-- Node.js na versão 14.0.1 (Outras versões não testadas);
-- .Net 5.0
+- Node.js na versão 14 ou Maior (Outras versões não testadas);
+- .Net 5.0 ou Maior
+
+> Verifique as versões através dos comandos:
+```
+node --version
+dotnet --version
+```
+
 > Para restaurar as dependências, compilar os projetos e executa-los em ambiente local com menor esforço possível. 
 Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando:
 
