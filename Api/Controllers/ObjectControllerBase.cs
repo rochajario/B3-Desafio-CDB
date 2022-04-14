@@ -23,9 +23,6 @@ namespace calculo_cdb.Controllers
             }
         }
 
-        private int GetStatusCodeNumber(HttpStatusCode statusCode)
-        {
-            return Convert.ToInt32(statusCode);
-        }
+        private static int GetStatusCodeNumber(HttpStatusCode statusCode) => Convert.ToInt32(statusCode);
     }
 }

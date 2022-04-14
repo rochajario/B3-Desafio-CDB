@@ -9,7 +9,7 @@ namespace calculo_cdb.Controllers
     [ApiController]
     public class InvestmentController : ObjectControllerBase
     {
-        private ICalculationService _calculator;
+        private readonly ICalculationService _calculator;
 
         public InvestmentController(ICalculationService calculator)
         {
