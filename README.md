@@ -58,6 +58,11 @@ Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando:
 ```
 powershell ./Inicializar-Localmente.ps1
 ```
+<em>
+	Obs.: Ao executar o comando, uma nova janela irá ser aberta com o processo do servidor de backend.
+	Mantenha-a aberta durante a execução do frontend.
+</em>
+
 <h3 id="inicializacao-b">II - Inicializando de Forma Manual</h3>
 
 > Caso prefira executar os serviços separadamente navegue até a raiz do projeto e siga os passos descritos à baixo:
