@@ -2,16 +2,43 @@
 
 <p align="center">
     <a href="https://codecov.io/gh/rochajario/B3-Desafio-Cdb">
-        <img src="https://codecov.io/gh/rochajario/B3-Desafio-Cdb/branch/master/graph/badge.svg?token=YT3JTL3M0E" alt="Cobertura de Código"/>
+        <img src="https://codecov.io/gh/rochajario/B3-Desafio-Cdb/branch/master/graph/badge.svg?token=YT3JTL3M0E"/>
     </a>
     <br/>
-    <!--Outras Badges aqui-->
+    <a href="https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=rochajario_B3-Desafio-Cdb&metric=sqale_rating"/>
+    </a>
+    <a href="https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=rochajario_B3-Desafio-Cdb&metric=reliability_rating"/>
+    </a>
+    <a href="https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=rochajario_B3-Desafio-Cdb&metric=security_rating"/>
+    </a>
+    <a href="https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=rochajario_B3-Desafio-Cdb&metric=code_smells"/>
+    </a>
+    <a href="https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb">
+        <img src="https://sonarcloud.io/api/project_badges/measure?project=rochajario_B3-Desafio-Cdb&metric=sqale_index"/>
+    </a>
 </p>
+
+## Sumário
 
 ## 1 - Objetivo
 Demonstrar a capacidade de análise e implementação de soluções fundamentadas pelos princípios do SOLID, Testes unitários e performance.
 
-## 2 - Problema
+## 2 - Inicializando Localmente
+> Para inicializar o sistema em ambiente windows assegure-se que o sistema operacional possui:
+- Node.js na versão 14.0.1 (Outras versões não testadas);
+- .Net 5.0
+> Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando:
+
+```
+powershell ./Inicializar-localmente.ps1
+```
+
+
+## 3 - Problema
 ### Cálculo do CDB
 1. Desenvolvimento de uma tela web que possibilita ao usuário informar um valor monetário positivo e um prazo em meses maior que 1 (um) para resgate da aplicação. Após solicitar o cálculo do investimento, a tela deve apresentar o resultado bruto e o resultado líquido do investimento.
 
