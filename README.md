@@ -56,7 +56,7 @@ dotnet --version
 Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando através do terminal:
 
 ```
-powershell ./Inicializar-Localmente.ps1
+PowerShell.exe -ExecutionPolicy Bypass -File ./Inicializar-Localmente.ps1
 ```
 <em>
 	Obs.: Ao executar o comando acima, uma nova janela irá ser aberta com o processo do servidor de backend.
