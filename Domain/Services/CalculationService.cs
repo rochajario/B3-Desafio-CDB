@@ -33,7 +33,7 @@ namespace Domain.Services
 
         private static void SetInvestmentClearProfit(InvestmentBusinessEntity investment)
         {
-            var value = CalculationUtil.TaxDiscount(investment.GrossProfit, investment.MonthsCommited);
+            var value = CalculationUtil.ProfitAfterTaxDiscount(investment.GrossProfit, investment.MonthsCommited);
             investment.ClearProfit = Math.Round(value, 2);
         }
 

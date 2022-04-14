@@ -14,7 +14,7 @@ namespace Domain.Utils
             return monetaryValue * (FinancialRates.CDI * FinancialRates.TB);
         }
 
-        public static double TaxDiscount(double monetaryValue, int monthsCommited)
+        public static double ProfitAfterTaxDiscount(double monetaryValue, int monthsCommited)
         {
             ValidateRequirement(
                 validation: () => (monthsCommited <= 1),

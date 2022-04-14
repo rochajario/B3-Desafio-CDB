@@ -16,7 +16,7 @@ namespace Domain.Tests.CalculationUtil
             #endregion
 
             #region Act - Assert
-            Assert.Throws<ArgumentException>(() => Util.TaxDiscount(dummyMonetaryValue, months));
+            Assert.Throws<ArgumentException>(() => Util.ProfitAfterTaxDiscount(dummyMonetaryValue, months));
             #endregion
         }
 
@@ -28,7 +28,7 @@ namespace Domain.Tests.CalculationUtil
             #endregion
 
             #region Act
-            var result = Util.TaxDiscount(dummyMonetaryValue, 2);
+            var result = Util.ProfitAfterTaxDiscount(dummyMonetaryValue, 2);
             #endregion
 
             #region Assert
@@ -53,7 +53,7 @@ namespace Domain.Tests.CalculationUtil
         public void GivenMonthLimits_WhenTaxCalculationMethodCall_ThenReturnFinalValue(double initialValue, double finalValue, int months)
         {
             #region Arrange - Act
-            var result = Util.TaxDiscount(initialValue, months);
+            var result = Util.ProfitAfterTaxDiscount(initialValue, months);
             #endregion
 
             #region Assert

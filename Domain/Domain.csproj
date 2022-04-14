@@ -5,8 +5,4 @@
     <CodeAnalysisRuleSet>..\.sonarlint\rochajario_b3-desafio-cdbcsharp.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
-  <ItemGroup>
-    <AdditionalFiles Include="..\.sonarlint\rochajario_b3-desafio-cdb\CSharp\SonarLint.xml" Link="SonarLint.xml" />
-  </ItemGroup>
-
 </Project>
