@@ -53,11 +53,18 @@ node --version
 dotnet --version
 ```
 
+> Para que seja possível executar scripts do Powershell é necessário que seja atribuída uma política de execução 'irrestrita'. Caso ainda não tenha essa funcionalidade habilitada execute o seguinte comando (Como Administrador):
+
+```
+powershell Set-ExecutionPolicy -ExecutionPolicy UnRestricted
+powershell Get-ExecutionPolicy
+```
+
 > Para restaurar as dependências, compilar os projetos e executa-los em ambiente local com menor esforço possível. 
 Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando através do terminal:
 
 ```
-PowerShell.exe -ExecutionPolicy Bypass -File ./Inicializar-Localmente.ps1
+powershell ./Inicializar-Localmente.ps1
 ```
 <em>
 	Obs.: Ao executar o comando acima, uma nova janela deverá ser aberta com o processo do servidor de backend.
