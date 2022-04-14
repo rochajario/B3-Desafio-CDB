@@ -53,7 +53,7 @@ node --version
 dotnet --version
 ```
 
-> Para que seja possível executar scripts do Powershell é necessário que seja atribuída uma política de execução 'irrestrita'. Caso ainda não tenha essa funcionalidade habilitada execute o seguinte comando (Como Administrador):
+> Para que seja possível executar scripts do Powershell é necessário que seja atribuída uma política de execução 'irrestrita'. Caso ainda não tenha essa funcionalidade habilitada execute os seguintes comandos (Como Administrador):
 
 ```
 powershell Set-ExecutionPolicy -ExecutionPolicy UnRestricted
