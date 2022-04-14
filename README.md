@@ -23,30 +23,20 @@
 </p>
 
 ## Sumário
-<ol>
-    <li>
-        <a href="objetivo">Objetivo</a>
-    </li>
-    <li>
-        <a href="inicializacao">Inicialização do Projeto</a>
-        <ul>
-            <li>
-                <a href="inicializacao-a">Inicializando de Forma Automatizada</a>
-            </li>
-            <li>
-                <a href="inicializacao-b">Inicializando de Forma Manual</a>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <a href="problema">Descrição do Problema</a>
-    </li>
-</ol>
+- [Cobertura de Testes](https://app.codecov.io/gh/rochajario/B3-Desafio-Cdb)
+- [Métricas de Qualidade de Código](https://sonarcloud.io/project/overview?id=rochajario_B3-Desafio-Cdb)
+- [Objetivo](#objetivo)
+- [Inicialização](#inicializacao)
+    - [Inicializando de Forma Automatizada](#inicializacao-a)
+    - [Inicializando de Forma Manual](#inicializacao-b)
+- [Descrição do Problema](#problema)
 
 <hr/>
 
 <h2 id="objetivo">1 - Objetivo</h2>
-Demonstrar a capacidade de análise e implementação de soluções fundamentadas pelos princípios do SOLID, Testes unitários e performance.
+
+> Demonstrar a capacidade de análise e implementação de soluções fundamentadas pelos princípios do SOLID, Testes unitários e performance.   
+
 
 <h2 id="inicializacao">2 - Inicialização do Projeto</h2>
 
