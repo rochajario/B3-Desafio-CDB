@@ -53,7 +53,7 @@ dotnet --version
 ```
 
 > Para restaurar as dependências, compilar os projetos e executa-los em ambiente local com menor esforço possível. 
-Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando:
+Navegue até a pasta onde o projeto foi baixado e execute o seguinte comando através do terminal:
 
 ```
 powershell ./Inicializar-Localmente.ps1
