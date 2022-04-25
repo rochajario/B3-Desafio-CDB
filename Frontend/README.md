@@ -36,3 +36,13 @@ npm run serve
 ```
 npm run build
 ```
+
+### Cria build do projeto como container de produção
+```
+docker build -t b3-challenge:frontend .
+```
+
+### Inicializa o container com previamente construído com redirecionamento de portas
+```
+docker run -d -p 8080:8080 b3-challenge:frontend
+```
